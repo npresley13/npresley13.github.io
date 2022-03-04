@@ -1,61 +1,8 @@
 // Header
 
-#primary-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    background-color: var(--clr-primary-gray);
-    padding: 0 2em;
-    width: 100vw;
-    max-width: 100%;
-    position: relative;
-}
 
 @media (min-width: 2800px) {
     #primary-header {
         max-width: 2800px;
     }
-}
-
-#nav-logo {
-    width: 7em;
-}
-
-.nav-left {
-    display: flex;
-    flex-direction: row;
-    gap: 1em;
-}
-
-.search-form {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%, -50%);
-    width: 33%;
-}
-
-.search {
-    width: 100%;
-    border-radius: 25px;
-}
-
-.nav-right {
-    display: flex;
-    flex-direction: row;
-    gap: 1em;
-}
-
-// Navigation - Desktop
-
-#primary-navigation {
-    display: flex;
-    flex-direction: row;
-    gap: 1em;
-}
-
-
-.mobile-nav-toggle {
-    display: none;
 }
