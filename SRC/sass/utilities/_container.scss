@@ -1,0 +1,16 @@
+@use '../abstracts/mixins' as *;
+
+.copy-container {
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+
+    @include mq(small) {
+        width: 80%;
+    }
+}
+
+.max-container {
+    max-width: 2800px;
+    margin: 0 auto;
+}

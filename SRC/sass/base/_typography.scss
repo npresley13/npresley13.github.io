@@ -1,0 +1,43 @@
+@use 'fonts' as *;
+
+h1 {
+    font-size: var(--fs-800);
+    font-family: var(--ff-primary);
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: var(--fs-700);
+    font-family: var(--ff-primary);
+    text-transform: uppercase;
+}
+
+p {
+    font-size: var(--fs-400);
+    font-family: var(--ff-primary);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    color: var(--clr-primary-light-gray);
+}
+
+#primary-navigation * {
+    color: var(--clr-primary-white);
+    font-family: var(--ff-primary);
+    font-size: var(--fs-300);
+}
+
+.right-nav > div > div {
+    color: var(--clr-primary-white);
+    font-family: var(--ff-primary);
+    font-size: var(--fs-300);
+}

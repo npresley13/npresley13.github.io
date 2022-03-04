@@ -1,0 +1,53 @@
+@use '../abstracts/mixins' as *;
+
+
+// 2 Column Content Grid
+
+.two-column-grid {
+   display: grid;
+   gap: 1em;
+   grid-template-columns: 1fr;
+   width: min(100%, 2800px);
+   padding: 0;
+   margin: 1em 0;
+}
+
+@include mq(medium) {
+   .two-column-grid {
+      grid-template-columns: repeat(2, 1fr);
+   }
+}
+
+
+// 3 Column Content Grid
+
+.three-column-grid {
+   display: grid;
+   gap: 1em;
+   grid-template-columns: 1fr;
+   width: min(100%, 2800px);
+   padding: 0;
+   margin: 1em 0;
+}
+
+@include mq(medium) {
+   .three-column-grid {
+      grid-template-columns: repeat(3, 1fr);
+   }
+}
+
+
+//  3 Column Footer Grid
+
+.three-column-grid-footer {
+   display: grid;
+   gap: 0;
+   grid-template-columns: 1fr;
+   width: min(100%, 2800px);
+}
+
+@include mq(small) {
+   .three-column-grid-footer {
+      grid-template-columns: repeat(3, 1fr);
+   }
+}
