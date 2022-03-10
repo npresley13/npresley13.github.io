@@ -12,17 +12,24 @@ h2 {
     text-transform: uppercase;
 }
 
-p {
-    font-size: var(--fs-400);
+h3 {
+    font-size: var(--fs-600);
     font-family: var(--ff-primary);
 }
 
-ul {
-    list-style: none;
+h4 {
+    font-size: var(--fs-500);
+    font-family: var(--ff-primary);
 }
 
-a {
-    text-decoration: none;
+p {
+    font-size: var(--fs-200);
+    font-family: var(--ff-primary);
+}
+
+li {
+    font-size: var(--fs-200);
+    font-family: var(--ff-primary);
 }
 
 a:hover {
@@ -40,4 +47,16 @@ a:hover {
     color: var(--clr-primary-white);
     font-family: var(--ff-primary);
     font-size: var(--fs-300);
+}
+
+.date {
+    font-size: var(--fs-100);
+    font-family: var(--ff-primary);
+    font-style: italic;
+}
+
+.graduation-date {
+    font-size: var(--fs-100);
+    font-family: var(--ff-primary);
+    font-style: italic;
 }
