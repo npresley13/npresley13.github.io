@@ -1,7 +1,9 @@
 .resume {
     width: 66%;
     max-width: 800px;
-    margin: auto;
+    margin: 2em auto;
+    padding: 2em;
     background-color: var(--clr-light);
     border: .3em solid var(--clr-light-red);
+    box-shadow: 0px 0px 10px 3px var(--clr-light-purple);
 }

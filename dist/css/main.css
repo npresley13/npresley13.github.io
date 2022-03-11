@@ -158,6 +158,7 @@ p {
 li {
   font-size: var(--fs-200);
   font-family: var(--ff-body);
+  list-style-position: inside;
 }
 
 a {
@@ -194,6 +195,16 @@ a:focus, a:active {
   font-size: var(--fs-100);
   font-family: var(--ff-body);
   font-style: italic;
+}
+
+.company {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.school {
+  font-style: italic;
+  font-weight: 300;
 }
 
 @media (min-width: 2800px) {
@@ -241,12 +252,26 @@ a:focus, a:active {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+.job {
+  margin-left: 2em;
+}
+
+.school-group {
+  margin-left: 2em;
+}
+
+.compentancies {
+  margin-left: 2em;
+}
+
 .resume {
   width: 66%;
   max-width: 800px;
-  margin: auto;
+  margin: 2em auto;
+  padding: 2em;
   background-color: var(--clr-light);
   border: 0.3em solid var(--clr-light-red);
+  box-shadow: 0px 0px 10px 3px var(--clr-light-purple);
 }
 
 /*# sourceMappingURL=main.css.map */
