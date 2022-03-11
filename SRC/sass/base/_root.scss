@@ -32,5 +32,8 @@
     }
 
     // Font Family
-    --ff-primary: #{$headings-font-family};
+    // --ff-primary: #{$headings-font-family};
+    @each $font-family, $value in $fonts {
+        --ff-#{$font-family}: #{$value};
+    }
 }
