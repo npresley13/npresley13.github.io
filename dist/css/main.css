@@ -212,6 +212,13 @@ a:focus, a:active {
     max-width: 2800px;
   }
 }
+.primary-cta {
+  background-color: var(--clr-light-pink);
+  color: var(--clr-light);
+  border: none;
+  box-shadow: 0px 0px 10px 3px var(--clr-light-purple);
+}
+
 .two-column-grid {
   display: grid;
   gap: 1em;
@@ -252,6 +259,11 @@ a:focus, a:active {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+.dark-drop {
+  padding: 2em 0;
+  background-color: var(--clr-dark);
+}
+
 .job {
   margin-left: 2em;
 }
