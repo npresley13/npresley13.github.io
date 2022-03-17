@@ -213,52 +213,18 @@ a:focus, a:active {
   }
 }
 .primary-cta {
-  background-color: var(--clr-light-pink);
+  background-color: var(--clr-light-red);
   color: var(--clr-light);
   border: none;
-  box-shadow: 0px 0px 10px 3px var(--clr-light-purple);
 }
 
-.two-column-grid {
-  display: grid;
-  gap: 1em;
-  grid-template-columns: 1fr;
-  width: min(100%, 2800px);
-  padding: 0;
-  margin: 1em 0;
+.primary-cta:hover {
+  background-color: var(--clr-light-pink);
+  color: var(--clr-light);
+  box-shadow: 0px 0px 10px 5px var(--clr-light-purple);
+  cursor: crosshair;
 }
 
-@media only screen and (min-width: 65em) {
-  .two-column-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-.three-column-grid {
-  display: grid;
-  gap: 1em;
-  grid-template-columns: 1fr;
-  width: min(100%, 2800px);
-  padding: 0;
-  margin: 1em 0;
-}
-
-@media only screen and (min-width: 65em) {
-  .three-column-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-.three-column-grid-footer {
-  display: grid;
-  gap: 0;
-  grid-template-columns: 1fr;
-  width: min(100%, 2800px);
-}
-
-@media only screen and (min-width: 40em) {
-  .three-column-grid-footer {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
 .dark-drop {
   padding: 2em 0;
   background-color: var(--clr-dark);
@@ -283,7 +249,7 @@ a:focus, a:active {
   padding: 2em;
   background-color: var(--clr-light);
   border: 0.3em solid var(--clr-light-red);
-  box-shadow: 0px 0px 10px 3px var(--clr-light-purple);
+  box-shadow: 0px 0px 10px 5px var(--clr-light-purple);
 }
 
 /*# sourceMappingURL=main.css.map */
