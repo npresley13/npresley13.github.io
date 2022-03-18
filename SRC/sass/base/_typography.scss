@@ -45,6 +45,7 @@ a:visited {
 a:hover {
     cursor: pointer;
     color: var(--clr-light-pink);
+    text-shadow: 1px 1px 7px var(--clr-dark-purple);
 }
 
 a:focus, a:active {

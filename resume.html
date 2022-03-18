@@ -7,20 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@0;1&family=Kanit:ital,wght@0,200;0,400;1,200;1,400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@0;1&family=Kanit:ital,wght@0,200;0,400;1,200;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/waq7cos.css">
     <link rel="stylesheet" href="dist/css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <title>Nate's Resume</title>
 </head>
 
-<body>
+<body class="dark-drop">
     <header>
 
     </header>
-    
-    <main class="dark-drop">
-        <button class="primary-cta">Print as PDF</button>
+
+    <main class="container-resume  dark-drop">
+        <button id="print-button" class="primary-cta">Print as PDF</button>
         <div class="resume">
             <section class="contact-info">
                 <h1>Nathan Presley</h1>
@@ -103,13 +105,13 @@
                 <h2>Education</h2>
                 <h3 class="school">Code Louisville</h3>
                 <div class="school-group">
-                    
+
                     <p>Frontend JavaScript</p>
                     <p class="graduation-date">Class of 2021</p>
                 </div>
                 <h3 class="school">University of Louisville</h3>
                 <div class="school-group">
-                    
+
                     <p>B.S.B.A. in Business Marketing</p>
                     <p class="graduation-date">Class of 2017</p>
                 </div>
@@ -129,6 +131,7 @@
         </div>
 
     </main>
+    <script src="SRC/js/print.js"></script>
 </body>
 
 </html>

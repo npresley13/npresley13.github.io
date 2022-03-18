@@ -173,6 +173,7 @@ a:visited {
 a:hover {
   cursor: pointer;
   color: var(--clr-light-pink);
+  text-shadow: 1px 1px 7px var(--clr-dark-purple);
 }
 
 a:focus, a:active {
@@ -222,11 +223,10 @@ a:focus, a:active {
   background-color: var(--clr-light-pink);
   color: var(--clr-light);
   box-shadow: 0px 0px 10px 5px var(--clr-light-purple);
-  cursor: crosshair;
+  cursor: pointer;
 }
 
 .dark-drop {
-  padding: 2em 0;
   background-color: var(--clr-dark);
 }
 
@@ -243,13 +243,19 @@ a:focus, a:active {
 }
 
 .resume {
-  width: 66%;
+  width: 100%;
   max-width: 800px;
-  margin: 2em auto;
   padding: 2em;
+  margin: 2em 0 0 0;
   background-color: var(--clr-light);
   border: 0.3em solid var(--clr-light-red);
   box-shadow: 0px 0px 10px 5px var(--clr-light-purple);
+}
+
+.container-resume {
+  width: 66%;
+  max-width: 800px;
+  margin: 2em auto;
 }
 
 /*# sourceMappingURL=main.css.map */
