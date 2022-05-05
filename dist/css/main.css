@@ -272,6 +272,11 @@ a:focus, a:active {
   transform: scaleX(1.31) rotateY(-40deg);
 }
 
+#draw {
+  width: 800;
+  height: 800;
+}
+
 .dark-drop {
   background-color: var(--clr-dark);
 }
